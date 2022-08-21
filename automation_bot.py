@@ -7,7 +7,7 @@ def get_the_estimate(adress):
     refresh_page()
     time.sleep(1)
     pyperclip.copy("1234567890")
-    pyautogui.scroll(100)
+    pyautogui.scroll(1000)
     click_text_box()
     pyautogui.write(adress)
     time.sleep(1)
@@ -42,6 +42,9 @@ def close_estimate_window():
 
 
 def refresh_page():
-    refresh_btn_pos = (86, 59)
-    pyautogui.moveTo(refresh_btn_pos)
-    pyautogui.click()
+    pyautogui.keyDown('F5')
+    time.sleep(0.1)
+    pyautogui.keyUp('F5')
+    # refresh_btn_pos = (86, 59)
+    # pyautogui.moveTo(refresh_btn_pos)
+    # pyautogui.click()

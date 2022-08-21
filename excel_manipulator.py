@@ -47,4 +47,4 @@ class ExcelManipulator:
 
     def export_to_xlsx_file(self):
         self.data[self.column_to_insert_to] = self.estimates
-        self.data.to_excel("output1.xlsx")
+        self.data.to_excel("xlsx_files/output.xlsx")
