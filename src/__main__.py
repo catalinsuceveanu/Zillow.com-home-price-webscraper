@@ -1,5 +1,5 @@
 from excel_manipulator import ExcelManipulator
-import automation_bot
+import automation_bot as automation_bot
 import time
 
 
