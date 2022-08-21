@@ -9,10 +9,10 @@ I left an example input .xlsx and output. but basically it looks like:
 
 INPUT file:
 
-```
+
 |OWNER 1 LABEL NAME| PROPERTY ADDRESS | PROPERTY CITY | PROPERTY STATE | PROPERTY ZIP CODE | Zestimate |
 | ---------------- | ---------------- | ------------- | -------------- | ----------------- | --------- |
-|     John Doe     | 53 Marguerite Dr |    Neskowin   |       OR       |        97149      |           |
+| John Doe         | 53 Marguerite Dr | Neskowin      | OR             | 97149             |           |
 | ---------------- | ---------------- | ------------- | -------------- | ----------------- | --------- |
 |    John Doe2     | Somewhere in US  |    Nocity12   |       MA       |        65109      |           |
 | ---------------- | ---------------- | ------------- | -------------- | ----------------- | --------- |
@@ -20,13 +20,13 @@ INPUT file:
 | ---------------- | ---------------- | ------------- | -------------- | ----------------- | --------- |
 |    John Doe4     | Still in the US  |  Another city |       MN       |        75412      |           |
 | ---------------- | ---------------- | ------------- | -------------- | ----------------- | --------- |
-```
+
 
 OUTPUT file:
 
 | OWNER 1 LABEL NAME | OWNER 1 LABEL NAME      | OWNER 1 LABEL NAME | PROPERTY STATE   | ZIP CODE            | Zestimate   |
 | ------------------ | ----------------------- | ------------------ | ---------------- | ------------------- | ----------- |
-| John Doe           | John DoeSomewhere in US | Nocity12           | MA               | 65109               |             |
+| John Doe           | Somewhere in US         | Nocity12           | MA               | 65109               |             |
 | ------------------ | ------------------      | ---------------    | ---------------- | ------------------- | ----------- |
 | John Doe3          | Again in the US         | Sometown           | NY               | 02146               |             |
 | ------------------ | ------------------      | ---------------    | ---------------- | ------------------- | ----------- |
