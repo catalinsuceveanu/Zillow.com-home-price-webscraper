@@ -12,14 +12,10 @@ INPUT file:
 
 |OWNER 1 LABEL NAME| PROPERTY ADDRESS | PROPERTY CITY | PROPERTY STATE | PROPERTY ZIP CODE | Zestimate |
 | ---------------- | ---------------- | ------------- | -------------- | ----------------- | --------- |
-| John Doe         | 53 Marguerite Dr | Neskowin      | OR             | 97149             |           |
-| ---------------- | ---------------- | ------------- | -------------- | ----------------- | --------- |
+|    John Doe      | 53 Marguerite Dr |    Neskowin   |       OR       |        97149      |           |
 |    John Doe2     | Somewhere in US  |    Nocity12   |       MA       |        65109      |           |
-| ---------------- | ---------------- | ------------- | -------------- | ----------------- | --------- |
 |    John Doe3     | Again in the US  |    Sometown   |       NY       |        02146      |           |
-| ---------------- | ---------------- | ------------- | -------------- | ----------------- | --------- |
 |    John Doe4     | Still in the US  |  Another city |       MN       |        75412      |           |
-| ---------------- | ---------------- | ------------- | -------------- | ----------------- | --------- |
 
 
 OUTPUT file:
