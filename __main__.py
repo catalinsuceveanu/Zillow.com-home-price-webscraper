@@ -4,7 +4,7 @@ import time
 
 
 def main():
-    print("Program will start in 10 seconds. Please access \nhttps://www.zillow.com/how-much-is-my-home-worth/")
+    print("Program will start in 10 seconds. Please access \nhttps://www.zillow.com/how-much-is-my-home-worth/\n")
     time.sleep(10)
     start_time = None
     end_time = None
@@ -18,7 +18,7 @@ def main():
             dur = end_time-start_time
             decimals = "{: 2f}".format(dur)
             print(
-                f"duration: {decimals} seconds, iteration {count} / {remaining}. ETA {int(dur*remaining/60)} mins")
+                f"duration: {decimals} seconds, iteration {count} / {len(adresses)}. ETA {int(dur*remaining/60)} mins")
             count += 1
             remaining -= 1
         start_time = time.time()
