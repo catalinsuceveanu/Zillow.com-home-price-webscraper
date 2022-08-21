@@ -45,6 +45,3 @@ def refresh_page():
     pyautogui.keyDown('F5')
     time.sleep(0.1)
     pyautogui.keyUp('F5')
-    # refresh_btn_pos = (86, 59)
-    # pyautogui.moveTo(refresh_btn_pos)
-    # pyautogui.click()
