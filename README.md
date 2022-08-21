@@ -13,10 +13,15 @@ INPUT file:
 ```
 |OWNER 1 LABEL NAME| PROPERTY ADDRESS | PROPERTY CITY | PROPERTY STATE | PROPERTY ZIP CODE | Zestimate |:---: | :---: | :---: | :---: |:---:|:---:|
 |John Doe| 53 Marguerite Dr| Neskowin | OR | 97149|
-|:---: | :---: | :---: | :---: |:---:|:---:|
-|John Doe| 53 Marguerite Dr| Neskowin | OR | 97149|
-|:---: | :---: | :---: | :---: |:---:|:---:|
-|John Doe| 53 Marguerite Dr| Neskowin | OR | 97149|
-|:---: | :---: | :---: | :---: |:---:|:---:|
-|John Doe| 53 Marguerite Dr| Neskowin | OR | 97149|
+
+
+
+
+```
+
+
+```
+| Attempt | #1  | #2  |
+| :---:   | :-: | :-: |
+| Seconds | 301 | 283 |
 ```
